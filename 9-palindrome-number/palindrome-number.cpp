@@ -10,6 +10,6 @@ public:
             rev=rev*10+temp%10;
             temp/=10;
         }
-        return rev==x;
+        return (int)rev==x;
     }
 };
